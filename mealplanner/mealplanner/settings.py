@@ -44,7 +44,12 @@ SECRET_KEY = "django-insecure-4&u@^r_%v^_n==-a(-u1wb0)jtn5g49646kwn08^jc#s4y7zqh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    '3.98.95.24',
+    'recipewizard.ca',
+    'www.recipewizard.ca'
+]
 
 
 # Application definition
