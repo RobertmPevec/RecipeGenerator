@@ -11,7 +11,7 @@ from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
 from django.contrib import messages
 
 # Initialize OpenAI client
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 
 # Logger setup
 logger = logging.getLogger(__name__)
